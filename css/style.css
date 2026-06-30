@@ -1,0 +1,266 @@
+/* ================================
+   GLOBAL
+================================ */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Segoe UI',sans-serif;
+    background:#f5f7fb;
+    color:#333;
+}
+
+/* ================================
+   NAVBAR
+================================ */
+
+.navbar{
+    padding:15px 0;
+}
+
+.navbar-brand{
+    font-size:24px;
+}
+
+.nav-link{
+    font-weight:500;
+    transition:.3s;
+}
+
+.nav-link:hover{
+    color:#ffd43b !important;
+}
+
+/* ================================
+   HERO
+================================ */
+
+.hero{
+    padding:80px 0;
+}
+
+.hero h1{
+    font-size:52px;
+    color:#0d6efd;
+}
+
+.hero p{
+    font-size:18px;
+    line-height:30px;
+}
+
+.hero img{
+    border-radius:20px;
+}
+
+/* ================================
+   BUTTON
+================================ */
+
+.btn{
+    border-radius:50px;
+    padding:12px 30px;
+}
+
+/* ================================
+   CARD
+================================ */
+
+.card{
+    border:none;
+    border-radius:20px;
+    transition:.3s;
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+
+}
+
+.card-body{
+
+    padding:35px;
+
+}
+
+.card i{
+
+    font-size:60px;
+
+}
+
+/* ================================
+   SECTION
+================================ */
+
+section{
+
+    padding-top:50px;
+
+    padding-bottom:50px;
+
+}
+
+h2{
+
+    color:#0d6efd;
+
+}
+
+/* ================================
+   FOOTER
+================================ */
+
+footer{
+
+    margin-top:50px;
+
+}
+
+footer p{
+
+    font-size:16px;
+
+}
+
+/* ================================
+   FORM
+================================ */
+
+.form-control{
+
+    border-radius:12px;
+
+    padding:12px;
+
+}
+
+.form-control:focus{
+
+    box-shadow:none;
+
+    border-color:#0d6efd;
+
+}
+
+.form-box{
+
+    background:#fff;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.1);
+
+}
+
+/* ================================
+   DASHBOARD
+================================ */
+
+.dashboard-card{
+
+    border-radius:20px;
+
+    color:white;
+
+    padding:30px;
+
+}
+
+.bg-blue{
+
+    background:#0d6efd;
+
+}
+
+.bg-green{
+
+    background:#198754;
+
+}
+
+.bg-orange{
+
+    background:#fd7e14;
+
+}
+
+.dashboard-card h3{
+
+    font-size:40px;
+
+}
+
+.dashboard-card p{
+
+    margin:0;
+
+}
+
+/* ================================
+   TABLE
+================================ */
+
+table{
+
+    background:white;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+}
+
+/* ================================
+   RESPONSIVE
+================================ */
+
+@media(max-width:992px){
+
+.hero{
+
+text-align:center;
+
+}
+
+.hero h1{
+
+font-size:38px;
+
+}
+
+.hero img{
+
+margin-top:40px;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.hero h1{
+
+font-size:30px;
+
+}
+
+.btn{
+
+width:100%;
+
+margin-top:10px;
+
+}
+
+}
